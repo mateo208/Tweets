@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 4rem;
+    background: #11001d;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    position: relative;
+    padding: 10px;
+    left: 2px;
+}
+
+p {
+    position: relative;
+    padding: 23px;
+    left: 74%;
+}
+
+.profile {
+    width: 3rem;
+    height: 3rem;
+    background: #fff;
+    border-radius: 29px;
+    position: relative;
+    text-align: center;
+    margin: 6px;
+    left: 75%;
+}
+
+#name-profile {
+    color: #000;
+    position: relative;
+    padding: 10px;
+    font-size: 1.5em;
+    left: -2%;
+}
+
+.container {
+    width: 30rem;
+    height: 25rem;
+    background: #01141d;
+    display: flex;
+    flex-direction: column;
+    color: rgb(199, 199, 199);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 20px #979292;
+    position: relative;
+    left: 35%;
+    top: 55px;
+}
+
+label {
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+input {
+    width: 29rem;
+    height: 2rem;
+    padding-left: 9px;
+    outline: none;
+    border-radius: 8px;
+}
+
+textarea {
+    width: 29rem;
+    outline: none;
+    padding-left: 9px;
+    border-radius: 8px;
+}
+
+button {
+    width: 5rem;
+    height: 3rem;
+    position: relative;
+    top: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background: #979292;
+    transform: translateX(0) translateY(-5px);
+}
+
+#Result-Comment {
+    position: relative;
+    left: -13%;
+    text-align: center;
+    top: 100px;
+}
+
+#Contador {
+    position: static;
+    padding: 1px;
+    font-size: 1.3em;
+}
